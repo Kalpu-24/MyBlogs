@@ -26,10 +26,9 @@ body {
 */
 .cursor {
   position: absolute;
-  display: inline;
   transform: translate(-50%, -50%) scale(1.6); /* Center on the pointer */
   pointer-events: none; /* Allows clicking "through" the cursor */
-  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+  transition: transform 0.6s ease-in-out, opacity 1s ease-in-out;
   z-index: 9999;
 }
 
@@ -41,14 +40,12 @@ body {
 }
 
 .cursor.is-hidden {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(0);
     opacity: 0;
-    display: none;
 }
 
 .text-group{
     fill: #F8F5F2;
-
 }
 
 .cursor:not(.is-hidden) .text-group {
