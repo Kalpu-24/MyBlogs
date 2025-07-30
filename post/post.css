@@ -15,7 +15,7 @@ body {
 
 .header-container {
     position: fixed;
-    width: 100%;
+    width: 90%;
     max-width: 800px;
     left: 50%;
     transform: translateX(-50%);
