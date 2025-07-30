@@ -1,0 +1,13 @@
+@media (hover: hover) {
+    .back-link:hover {
+        color: #212121;
+    }
+
+    .article-content a:hover {
+        background-color: #0d5c631a;
+    }
+
+    .logo:hover{
+        cursor: pointer;
+    }
+}

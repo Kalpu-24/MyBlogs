@@ -1,0 +1,5 @@
+@media (min-width: 768px) {
+    .posts-grid {
+        column-count: 2;
+    }
+}

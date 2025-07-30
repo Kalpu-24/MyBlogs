@@ -72,18 +72,23 @@ function filterPosts() {
     UpdateHoverElements();
     setTimeout(() => {
         $(".post-card").each(function () {
-                $(this).css({
-                    'border-bottom-color': '#838383',
-                    'border-right-color': '#838383',
-                    'border-left-color': '#838383',
-                });
+            $(this).css({
+                'border-bottom-color': '#838383',
+                'border-right-color': '#838383',
+                'border-left-color': '#838383',
             });
+        });
     }, 500);
 
     if (visibleCount === 0) {
         noResultsMessage.classList.add('visible');
+        noResultsMessage.innerHTML = `
+                    <p>No articles found</p>
+                    <span>Try adjusting filters.</span>
+                `;
     } else {
         noResultsMessage.classList.remove('visible');
+        noResultsMessage.innerHTML = '';
     }
 }
 
@@ -98,16 +103,14 @@ function UpdateHoverElements() {
 
     const onMouseEnter = () => {
         cursor.classList.remove('is-hidden');
-        $("body").css('cursor', 'none');
     };
 
     const onMouseLeave = () => {
         cursor.classList.add('is-hidden');
-        $("body").css('cursor', 'default');
     };
 
     window.addEventListener('mousemove', onMouseMove);
-    
+
     hoverElements.forEach(el => {
         el.addEventListener('mouseenter', onMouseEnter);
         el.addEventListener('mouseleave', onMouseLeave);
