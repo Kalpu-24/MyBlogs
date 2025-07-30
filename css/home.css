@@ -45,7 +45,7 @@ body {
 }
 
 .text-group{
-    fill: #F8F5F2;
+    fill: #f8f5f2;
 }
 
 .cursor:not(.is-hidden) .text-group {
