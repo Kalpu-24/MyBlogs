@@ -30,49 +30,112 @@
                     </header>
 
                     <div class="article-content">
-                        <!-- <p>Coming up with a truly great game idea is often the hardest part of the development journey.
-                            It's a mix of creativity, market awareness, and brutal honesty about what's achievable. Many
-                            developers, myself included, have ideas filled with half-baked concepts that never saw the
-                            light of day. So, how do you break through the noise and find an idea worth pursuing?</p>
+                        <p>While we all dream of making the next million-dollar indie game, we often overlook the
+                            importance of feasibility. It's crucial to ask ourselves: <b>Can I actually finish this
+                                game?</b> Many developers who overlook this question find themselves stuck in an endless
+                            cycle of development without a clear path to completion, which we call <b>development
+                                hell</b>.</p>
+
+                        <blockquote>
+                            "The best game ideas are the ones you can actually finish. Don't get lost in the dream of a
+                            perfect game; focus on what you can realistically achieve."
+                        </blockquote>
 
                         <div class="article-image-container">
                             <img class="article-image" src="./../../public/thumbnails/280725.png"
                                 alt="Abstract image representing ideas">
                         </div>
 
-                        <h2>What are the constraints?</h2>
-                        <p>Instead of thinking about story or art style, start with a single, compelling action. What
-                            does the player *do*? Is it jumping, building, talking, or something entirely new? A strong
-                            core mechanic is the foundation of any good game. Think of games like 'Portal' (placing
-                            portals) or 'Papers, Please' (checking documents). Their entire experience is built around
-                            one simple, yet deeply engaging, action.</p>
+                        <h2>How It Started</h2>
+                        <p>After completing a game development course, I faced my first challenge: creating projects to
+                            apply what I'd learned and showcase my skills to potential employers. For that, I was
+                            advised to create as many small games as possible, be they hyper-casual or clones. But I
+                            didn't agree with them; I didn't want to make something even I wouldn't play.</p>
+                        <p>Now, I also had plenty of ideas for next-gen, groundbreaking game lore and mechanics, but
+                            let's be real. It's not something I could do alone in a short period. It would take years
+                            and might never even see the light of day.</p>
+                        <p>So, I had to make a choice: scale down my ambitions. The best approach is to <b>start
+                                small</b>. I set some constraints: I needed to finish it in a week, and it shouldn't be
+                            an art-demanding game, as I'm a programmer before anything else. Now, the easy answer was to
+                            ask <b>ChatGPT</b>, right? That's what I tried. It gave me a bunch of game ideas that fit my
+                            constraints, but I honestly didn't like any of them. Yet, I kept the very first one just
+                            because it was the first one xD. It was a platformer, exactly like <i><a
+                                    href="https://play.google.com/store/apps/details?id=com.marvellous.NinJump&hl=en_IN&pli=1"
+                                    target="_blank">NinJump</a></i>,
+                            but without the ninja.</p>
+                        <p>It wasn't what I wanted, but after several hours of getting nowhere, it just clicked: what if
+                            instead of the player jumping to another wall, the world itself changed its orientation? And
+                            that's how <b>The Gravity Flip</b> was born.</p>
+
+                        <div class="article-image-container">
+                            <img class="article-image" src="https://kalpshah.dev/public/tgf-main.png"
+                                alt="Abstract image representing ideas">
+                        </div>
+
+                        <p>While making The Gravity Flip, a puzzle platformer, I recalled a statement from <a
+                                href="https://www.youtube.com/@GMTK" target="_blank"><b><abbr
+                                        title="Game Maker's Toolkit">GMTK</abbr></b></a>: "Making puzzles is hard." You
+                            have to make sure the puzzle is challenging enough, yet still solvable. One thing developers
+                            often overlook is that a puzzle they think is very easy can turn out to be very difficult
+                            for players. Managing all that is quite difficult. And yet, it turned out to be a pretty
+                            good game with <b>very positive reviews</b>. You can read the reviews <a
+                                href="https://kalpshah.dev/pages/projectdetails.html?project=tgf"
+                                target="_blank">here</a>, and if you want to try the game, you can play it <a
+                                href="https://kryoxx-studio.itch.io/the-gravity-flip" target="_blank">here</a>.</p>
+
+                        <h2>The Real Challenge Begins</h2>
+                        <p>Now, after completing The Gravity Flip, the real challenge began. The idea for The Gravity
+                            Flip had come to me out of nowhere, and that doesn't happen every time. This time, I spent
+                            days and days thinking of a new game idea, but I couldn't come up with anything.</p>
+                        <p>The moment I thought of an idea, I would end up expanding it more and more, to the point
+                            where it was no longer achievable within my time constraints. This <b>scope creep</b> would
+                            eventually lead to <b>development hell</b>.</p>
+                        <p>One of the ideas was <b>very cool</b>: a robot on a spaceship with no internal battery,
+                            needing a constant power supply from a wire. However, designing puzzles around the
+                            constraint of a non-extendable wire was hard. I couldn't come up with puzzles that presented
+                            both a clear challenge and a solution. I spent several days trying to iterate on that idea
+                            and design some puzzles, but I still couldn't make it work. The right call was to <b>scrap
+                                that idea</b> or adapt it in another way.</p>
+                        <p>This was my approach for a puzzle game, but what if the next idea wasn't a puzzle? What if it
+                            depended heavily on character movement? How do we know if it's worth committing to? That's
+                            what we'll see in the next segment.</p>
+
+                        <h2>Prototyping</h2>
+                        <p>Prototyping is the process of creating the bare minimum of the final product, excluding all
+                            the fancy graphics, music, and art. It's not supposed to be a gorgeous game; it's most
+                            likely just some blocks moving around, executing the bare minimum of your <b>core
+                                mechanic</b> so you can find out how the game <b>feels</b>.</p>
+                        <p>This is a crucial part, as it tells you how the game feels. Even if you pour your heart and
+                            soul into making gorgeous graphics and amazing music, if the core gameplay isn't fun, the
+                            game won't succeed. It simply won't provide the <b>Fun</b>. This is where many games
+                            fail—they just aren't fun. Developers keep working on them, thinking that better graphics or
+                            music will eventually make the game fun, but that rarely happens. The purpose of a prototype
+                            is to determine if your core idea is fun and to know when to stop, as the saying goes:</p>
 
                         <blockquote>
-                            "The best mechanics are simple to understand but offer deep strategic possibilities. This is
-                            the sweet spot you should be aiming for."
+                            Test Fast, Fail Fast, Adjust Fast
                         </blockquote>
 
-                        <h2>Combine and Subvert Genres</h2>
-                        <p>Sometimes the most innovative ideas come from smashing two existing genres together. What
-                            happens when you mix a rhythm game with a first-person shooter? Or a dating sim with a
-                            turn-based strategy game? This approach can lead to unique gameplay loops that feel both
-                            familiar and fresh. Don't be afraid to experiment with unusual combinations.</p>
+                        <h2>What If We Still Don't Get an Idea?</h2>
+                        <p><b>Play more games</b>, especially in the genre and scope you're aiming for. Try mixing
+                            various genres to see if you can create a new gem.</p>
 
-                        <h2>Prototyping in Blueprints</h2>
-                        <p>Before you commit to months of C++ development, use Unreal Engine's Blueprints to rapidly
-                            prototype your core mechanic. The goal here isn't to make something pretty; it's to answer
-                            one question: "Is this fun?" Here’s a simple example of a Blueprint node setup for a basic
-                            dash mechanic:</p>
+                        <h2>Personal Extras</h2>
+                        <p>The Gravity Flip was very positively received, which I feel quite lucky about. I didn't
+                            expect people to like it that much. I didn't market it, so there wasn't a big audience, but
+                            the people I had try the game all liked it very much.</p>
+                        <p>One more thing to note: the levels I created, thinking they were easy, players found to be
+                            quite hard. This reminds me of <a href="https://www.youtube.com/@GMTK"><b><abbr
+                                        title="Game Maker's Toolkit">GMTK's</abbr></b></a> remarks about puzzle design
+                            in one of his devlogs.</p>
 
-                        <pre><code>// This is a simplified representation of Blueprint logic
-Event Tick  Branch (Is Dashing?) 
-    True: Set Actor Location (New Location = Current Location + Forward Vector * Dash Speed)
-    False: Do Nothing
-                    </code></pre>
+                        <h2>Conclusion</h2>
+                        <p>Game design skill comes with <b>experience</b>. You can't expect to make good games right
+                            away. There's a saying that
+                        <blockquote>Your first few games are going to fail,</blockquote> but the key is to make sure you
+                        <b>fail forward</b>. Learn from those failures, improve continuously, keep making games, and
+                        eventually, you will be a great game designer. <b>I wish you all the best!</b></p>
 
-                        <p>This simple test can tell you more about your game idea in an hour than a week of writing
-                            design documents. If the core action feels good even with simple cubes, you might be onto
-                            something. If it's a chore, it's better to find out early and pivot to a new idea.</p> -->
                     </div>
                 </article>
             </div>

@@ -78,7 +78,7 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    border: 1px solid #e5e0da;
+    border-radius: 12px;
 }
 
 .circular-text-container {
@@ -122,13 +122,13 @@ body {
 }
 
 .article-content a {
-    color: #0D5C63;
+    color: #844712;
     text-decoration: none;
-    border-bottom: 1px solid #0d5c63a1;
+    border-bottom: 1px solid #844712;
 }
 
 .article-content blockquote {
-    border-left: 3px solid #0D5C63;
+    border-left: 3px solid #844712;
     padding-left: 1.5rem;
     margin-left: 0;
     margin-right: 0;
